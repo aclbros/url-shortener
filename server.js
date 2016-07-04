@@ -1,5 +1,5 @@
 var express = require("express");
-var api = require("./api.js");
+var api = require("./api");
 
 var app = express();
 require("dotenv").load();
