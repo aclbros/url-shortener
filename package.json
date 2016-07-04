@@ -1,14 +1,16 @@
 {
-  "name": "clementinejs-fcc",
+  "name": "url-shortener-aclbros",
   "version": "1.0.1",
-  "description": "The elegant and lightweight boilerplate for full stack JavaScript.",
+  "description": "FCC URL Shortener Microservice.",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc"
+    "url": "git+https://github.com/aclbros/url-shortener.git"
   },
-  "homepage": "http://www.clementinejs.com/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs-fcc/issues",
+  "homepage": "http://aclbros-url-shortener.herokuapp.com",
+  "bugs": {
+    "url": ""
+  },
   "keywords": [
     "MongoDB",
     "Mongoose",
@@ -19,16 +21,17 @@
     "boilerplate"
   ],
   "scripts": {
-  "start": "node server.js"
+    "start": "node server.js"
   },
   "author": "Blake Johnston",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",
+    "ejs": "^2.4.2",
     "express": "^4.12.4",
     "express-session": "^1.11.3",
     "mongoose": "^4.1.0",
-    "passport": "^0.3.0",
-    "passport-github": "^1.0.0"
-  }
+    "request": "^2.72.0"
+  },
+  "devDependencies": {}
 }
