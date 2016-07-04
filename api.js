@@ -16,7 +16,7 @@ router.get('/', function(req, res) {
 });
 
 // use a shortened url
-router.get(/\/\d{4}/, function(req, res) {
+router.get(/^\/\d{4}$/, function(req, res) {
     Url.findOne({short_url: req.get('Host') + req.path}, function(err, userObj) {
         if (err) {
             res.send({error: "This URL is not on the database."});
