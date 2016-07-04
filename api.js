@@ -28,7 +28,7 @@ router.get(/\/\d{4}/, function(req, res) {
 
 // request a new short url
 router.get(/\/.*/, function(req, res) {
-    if (req.path == '/new') {
+    if (req.path == '/new' || req.path == '/new/') {
         res.send('You must include an URL. Example: /new/http://www.example.com');
     } else {
         var args = req.path;
