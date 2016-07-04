@@ -17,13 +17,12 @@
     "full stack",
     "Express",
     "Node",
-    "javascript",
-    "boilerplate"
+    "javascript"
   ],
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Blake Johnston",
+  "author": "Antonio Carretero",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",
